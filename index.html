@@ -42,24 +42,30 @@
             top: 120%;
         }
         
-        #port_back {
-            width 50px;
+        .port_back {
+            display: inline-block;
+            position: relative;
+            top: 10%;
+            left: 10%;
+            width 100px;
             height: 40px;
             background-color: darkgreen;
         }
         
         .port_title {
             position: relative;
-            left: 10%;
+            left: 100%;
         }
         
         #img {
+            display: inline-block;
             width: 150px;
             height: 150px;
             background-color: blueviolet;
         }
         
         .thumb5 {
+            display: inline-block;
             position: relative;
             width:100%;
             height:100%;
@@ -127,10 +133,14 @@
         </div>
         
         <div id="portfolio">
-            <div id="port_back">
+            <div class="port_back">
                 <h3 class="port_title"> Title</h3>
             </div>
                 <div id="img">
+                    <img class="thumb5" src="https://placekitten.com/300/300" />
+                    <img class="thumb5" src="https://placekitten.com/300/300" />
+                    <img class="thumb5" src="https://placekitten.com/300/300" />
+                    <img class="thumb5" src="https://placekitten.com/300/300" />
                     <img class="thumb5" src="https://placekitten.com/300/300" />
                 </div>
         </div>
